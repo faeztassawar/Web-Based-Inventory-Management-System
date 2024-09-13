@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="SignIn.css">
+    <script>
+    	function validate()
+    	{
+    		if ( document.getElementById("u_name").value == "" )
+    	    {
+    			alert("Username is Empty !!");		
+    			return false;
+    	    }
+
+    	   if(document.getElementById("password").value == "")	
+    	   {
+    			alert("Password is Empty !!");
+    			return false;
+    	   }
+    	}
+    </script>
+</head>
+<body>
+<h1>Login Here !</h1>
+<table>
+	<form action="SignIn" method="post" onsubmit="return validate()">
+		<tr align="right">
+			<td>Username:</td>
+			<td><input type="text" id="u_name" name="u_name"></td>
+		</tr>
+		<tr align="right">
+			<td>Password:</td>
+			<td><input type="password" id="password" name="password"></td>
+		</tr>
+		<tr align="right">
+			<td></td>
+			<td><input type="submit" value="Sign In"></td>
+		</tr>
+        
+    </form>
+</table>
+    
+</body>
+</html>
