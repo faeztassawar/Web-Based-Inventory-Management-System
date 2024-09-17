@@ -41,6 +41,8 @@ This is a web-based inventory management system with functionalities for both **
    - Download from [here](https://www.eclipse.org/downloads/).
    - Make sure the **Eclipse IDE for Java EE Developers** is installed as it provides the necessary tools for working with web applications.
 
+You also have to set respective path variables in your system environment variables.
+
 ## Setup Instructions
 
 - Import this project in Eclipse.
@@ -54,5 +56,4 @@ This is a web-based inventory management system with functionalities for both **
 - Add the .jar file to your project by copying it into the WEB-INF/lib directory.
 - Right-click the .jar file in Eclipse and select Build Path > Add to Build Path.
 - After setting up Tomcat and the database, deploy the project, Right-click the project in Eclipse, select Run As > Run on Server. Choose Tomcat v8.0 Server and start the server.
-- Open Browser and go to: [https://localhost:8080/index.html](https://localhost:8080/index.html)
-- or use your setup port for Apache.
+- Open Browser and go to: [https://localhost:8080/index.html](https://localhost:8080/index.html) or use your setup port for Apache.
